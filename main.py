@@ -1,39 +1,24 @@
-print("Hello World")
+print("Welcome to the Quiz_game")
 
-print("more strings")
-print(4)
+playing = input("Do you want to play?")
 
-#variabble
+if playing != "yes":
+    quit()
 
-a = 5
-print(a)
+print("Okey! Let's play :) ")
 
-b = "My name is:"
-print(b)
+playing = input("Are you a UCU Student?")
 
-print(a, b)
+if playing !='yes':
 
-e = b
+    quit()
 
-print(e)
+answer = input("what does u.c.u stand for?")
 
+if answer == "uganda christian university":
+    print("correct!")
 
-#swipping to variables
+else:
+    print("incorrect!")
 
-v1 = "first string"
-v2 = "second string"
-
-y = v1
-r =  v2
-
-print(b)
-
-print(e)
-
-r2 = v1
-v1 = v2
-v2 = r2
-print(v1)
-
-print(v2)
 
